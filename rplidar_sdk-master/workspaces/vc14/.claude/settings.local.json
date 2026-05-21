@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(& \"C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\MSBuild\\\\Current\\\\Bin\\\\MSBuild.exe\" \"c:\\\\Users\\\\user\\\\Downloads\\\\rplidar_sdk_master\\\\rplidar_sdk-master\\\\workspaces\\\\vc14\\\\sdk_and_demo.sln\" /p:Configuration=Release /p:Platform=x64 /t:simple_grabber 2>&1)",
+      "Bash(where.exe cl.exe)",
+      "Bash(where.exe g++.exe)",
+      "Bash(where.exe python *)",
+      "Bash(where.exe python3 *)",
+      "Bash(python -m pip show rplidar-roboticia)",
+      "Bash(python -m pip show pyrplidar)",
+      "Bash(python -c \"import serial; print\\('pyserial ok'\\)\")",
+      "Bash(python -m pip install rplidar-roboticia)",
+      "WebSearch",
+      "WebFetch(domain:bucket-download.slamtec.com)",
+      "WebFetch(domain:cdn.robotshop.com)",
+      "WebFetch(domain:www.waveshare.com)"
+    ]
+  }
+}
